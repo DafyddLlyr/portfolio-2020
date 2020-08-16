@@ -3,8 +3,8 @@ $sky-color: linear-gradient(180deg, rgba(248,170,122,1) 0%, rgba(237,146,133,1) 
 $mtn-1-color: #28318e;
 $mtn-2-color: #1f2c88;
 $mtn-3-color: #14257d;
-$mtn-4-color: #070e45;
-$mtn-5-color: #070e45;
+$mtn-4-color: #0a1c68;
+$mtn-5-color: #090b3e;
 $mtn-6-color: #04011c;
 
 .mountain-container {
@@ -49,3 +49,19 @@ $mtn-6-color: #04011c;
       clip-path: polygon(100% 84%, 99% 84%, 96% 82%, 94% 83%, 92% 84%, 88% 85%, 83% 86%, 79% 86%, 75% 87%, 73% 86%, 69% 86%, 66% 86%, 62% 84%, 60% 84%, 57% 83%, 55% 83%, 51% 81%, 47% 80%, 44% 77%, 40% 76%, 38% 76%, 35% 74%, 33% 73%, 29% 70%, 27% 69%, 23% 67%, 20% 64%, 16% 62%, 13% 61%, 11% 59%, 10% 58%, 9% 57%, 7% 56%, 5% 55%, 4% 55%, 2% 55%, 1% 55%, 0% 56%, 0% 100%, 100% 100%);
     }
 }
+
+@keyframes intro {
+  0% {margin-top: 55vh; opacity: 0;}
+  60% {opacity: 0.5;}
+  100% {margin-top: 40vh; opacity: 1;}
+}
+
+.hero-text {
+  margin-top: 40vh;
+  margin-left: 10vw;
+  position: absolute;
+  font-size: 5rem;
+  animation-name: intro;
+  animation-duration: 3s;
+}
+
