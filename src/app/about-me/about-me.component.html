@@ -20,9 +20,9 @@
       <div class="my-tech-stack">
         <h3 class="sub-title mb-4">My Tech Stack</h3>
         <div>
-          <div *ngFor="let tech of techStack" class="d-flex align-items-center flex-column mr-3 mb-3">
+          <div *ngFor="let tech of techStack" class="d-flex align-items-center flex-column justify-content-between w-100">
             <img src="../../assets/icons/{{tech.icon}}" alt="{{tech.name}}-icon" width="100"/>
-            <span>{{tech.name}}</span>
+            <span class="mt-1 font-weight-bold">{{tech.name}}</span>
           </div>
         </div>
       </div>

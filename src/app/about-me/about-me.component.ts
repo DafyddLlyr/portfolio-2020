@@ -7,16 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutMeComponent implements OnInit {
   techStack = [
-    { name: 'HTML5', icon: 'postgres.png'},
-    { name: 'CSS3', icon: 'postgres.png'},
-    { name: 'JavaScript', icon: 'postgres.png'},
-    { name: 'Typescript', icon: 'postgres.png'},
-    { name: 'Python', icon: 'postgres.png'},
-    { name: 'Flask', icon: 'postgres.png'},
-    { name: 'Angular', icon: 'postgres.png'},
-    { name: 'AWS', icon: 'postgres.png'},
-    { name: 'OpenLayers', icon: 'postgres.png'},
+    { name: 'Python', icon: 'python.png'},
     { name: 'PostgreSQL', icon: 'postgres.png'},
+    { name: 'Typescript', icon: 'ts.png'},
+    { name: 'Angular', icon: 'angular.png'},
+    { name: 'Amazon Web Services', icon: 'aws.png'},
+    { name: 'OpenLayers', icon: 'openlayers.png'},
+    { name: 'HTML5', icon: 'html5.png'},
+    { name: 'CSS3', icon: 'css3.png'},
+    { name: 'JavaScript', icon: 'js.png'},
+    { name: 'Flask', icon: 'flask.png'},
+    { name: 'QGIS', icon: 'qgis.png'},
   ];
 
   constructor() { }

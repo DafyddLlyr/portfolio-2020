@@ -41,8 +41,9 @@ h2 {
 }
 
 .my-tech-stack > div {
+  text-align: center;
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
+  gap: 30px 20px;
 }
