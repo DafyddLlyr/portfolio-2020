@@ -364,3 +364,17 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+
+// End of CSS reset
+
+.app-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
+}
+
+.app-container > section {
+  scroll-snap-align: start;
+  height: 100vh;
+}

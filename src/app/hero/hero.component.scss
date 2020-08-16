@@ -73,10 +73,12 @@ $mtn-6-color: #04011c;
 }
 
 .description-text {
+  position: absolute;
+  right: 0;
   font-family: 'Montserrat', sans-serif;
   margin-top: 73vh; // Inital position
-  margin-left: 65vw;
-  position: absolute;
+  margin-right: 10vw;
+  margin-left: auto;
   font-size: 3rem;
   animation-name: description;
   animation-delay: 1s;
