@@ -1,3 +1,31 @@
-<div class="about-me">
-  <h2 class="pt-2 pl-3">About me.</h2>
+<div class="about-me pt-3 pl-3">
+  <h2 class="sub-title">About me.</h2>
+  <div class="d-flex">
+    <div class="d-flex align-items-center flex-column">
+      <div class="profile-pic mb-3"></div>
+      <h3>Dafydd Pearson</h3>
+      <p><i class="fas fa-map-marker-alt"></i> Glasgow, Scotland</p>
+      <p><i class="fas fa-mountain"></i> 41 / 282 Munros bagged</p>
+      <span class="highlight">&lt; Software Developer, thinkWhere &gt;</span>
+    </div>
+    <div class="pl-4">
+      <div class="profile-text mb-5">
+        <p>I'm originally from <u>Aberystwyth</u>, Wales, and now based in Glasgow.</p>
+        <p>Currently, I'm studying Professional Software Development at <u>CodeClan</u>. I'm new to programming but am thoroughly enjoying the challenge and creative thinking required.</p>
+        <p>Long-distance backpacking is a real passion of mine - in 2017 I hiked <u>Te Araroa</u>, hiking the entire length of New Zealand - over 3000km. I've walked a few other long trails as well since then, including the Cambrian Way and the Hebridean Way.</p>
+        <p>One of the main reasons I moved up to Scotland back in 2017 was to enjoy <u>the great outdoors</u>. I'm slowly working my way through the Munros and Corbetts whenever the weather allows!</p>
+        <p><u>I love reading</u>. Mainly history, non-fiction and some fantasy here and there. I'm a big George R. R. Martin fan.</p>
+        <p>If it's a rainy day and I'm not out walking, I would probably be want to be at home, <u>cooking and listening to music</u>, enjoying a coffee.</p>
+      </div>
+      <div class="my-tech-stack">
+        <h3 class="sub-title mb-4">My Tech Stack</h3>
+        <div>
+          <div *ngFor="let tech of techStack" class="d-flex align-items-center flex-column mr-3 mb-3">
+            <img src="../../assets/icons/{{tech.icon}}" alt="{{tech.name}}-icon" width="100"/>
+            <span>{{tech.name}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
