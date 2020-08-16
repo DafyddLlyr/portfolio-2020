@@ -1,21 +1,6 @@
 .about-me {
-  scroll-snap-align: start;
-  // background-color: darkblue;
   height: 100vh;
   width: 70vw;
-}
-
-h2 {
-  color: white;
-  font-size: 4rem;
-}
-
-.sub-title {
-  transform: rotate(-3deg);
-  display: inline-block;
-  background-color: blue;
-  font-weight: bold;
-  padding: 3px 5px;
 }
 
 .profile-pic-container {
@@ -26,7 +11,7 @@ h2 {
   min-width: 20vw;
   min-height: 20vw;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px black;
+  border: 3px solid white;
   display: inline-block;
   background-image: url(../../assets/profile.jpg);
   background-size: cover;
@@ -40,10 +25,34 @@ h2 {
   padding: 3px 5px;
 }
 
-.my-tech-stack > div {
+.tech-stack-skills {
   text-align: center;
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(6, 1fr);
   gap: 30px 20px;
 }
+
+@keyframes tech-stack-animation {
+  from {opacity: 0; transform: translateX(20%);}
+  to {opacity: 1;}
+}
+
+// .skill {
+//   opacity: 0;
+//   animation-name: tech-stack-animation;
+//   animation-duration: 3s;
+//   animation-fill-mode: forwards;
+// }
+
+// .tech-stack-skills > div:nth-child(1) {animation-delay: 5s;}
+// .tech-stack-skills > div:nth-child(2) {animation-delay: 5.5s;}
+// .tech-stack-skills > div:nth-child(3) {animation-delay: 6s;}
+// .tech-stack-skills > div:nth-child(4) {animation-delay: 6.5s;}
+// .tech-stack-skills > div:nth-child(5) {animation-delay: 7s;}
+// .tech-stack-skills > div:nth-child(6) {animation-delay: 7.5s;}
+// .tech-stack-skills > div:nth-child(7) {animation-delay: 8s;}
+// .tech-stack-skills > div:nth-child(8) {animation-delay: 8.5s;}
+// .tech-stack-skills > div:nth-child(9) {animation-delay: 9s;}
+// .tech-stack-skills > div:nth-child(10) {animation-delay: 9.5s;}
+// .tech-stack-skills > div:nth-child(11) {animation-delay: 10s;}

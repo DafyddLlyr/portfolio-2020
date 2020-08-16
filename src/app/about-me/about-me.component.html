@@ -1,5 +1,5 @@
 <div class="about-me pt-3 pl-3">
-  <h2 class="sub-title">About me.</h2>
+  <h2 class="section-header">About Me</h2>
   <div class="d-flex">
     <div class="d-flex align-items-center flex-column">
       <div class="profile-pic mb-3"></div>
@@ -17,9 +17,9 @@
         <p><u>I love reading</u>. Mainly history, non-fiction and some fantasy here and there. I'm a big George R. R. Martin fan.</p>
         <p>If it's a rainy day and I'm not out walking, I would probably be want to be at home, <u>cooking and listening to music</u>, enjoying a coffee.</p>
       </div>
-      <div class="my-tech-stack">
-        <h3 class="sub-title mb-4">My Tech Stack</h3>
-        <div>
+      <div>
+        <h3 class="section-header mb-4">My Tech Stack</h3>
+        <div class="tech-stack-skills">
           <div *ngFor="let tech of techStack" class="d-flex align-items-center flex-column justify-content-between w-100">
             <img src="../../assets/icons/{{tech.icon}}" alt="{{tech.name}}-icon" width="100"/>
             <span class="mt-1 font-weight-bold">{{tech.name}}</span>

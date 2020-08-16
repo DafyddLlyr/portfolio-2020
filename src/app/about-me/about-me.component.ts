@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, HostListener, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-about-me',
@@ -20,9 +20,13 @@ export class AboutMeComponent implements OnInit {
     { name: 'QGIS', icon: 'qgis.png'},
   ];
 
+
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 }

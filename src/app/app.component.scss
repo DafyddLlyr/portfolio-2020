@@ -381,3 +381,15 @@ textarea {
   scroll-snap-align: start;
   height: 100vh;
 }
+
+::ng-deep .section-header {
+  transform: rotate(-3deg);
+  display: inline-block;
+  background-color: blue;
+  font-weight: bold;
+  padding: 3px 5px;
+}
+
+::ng-deep h2 {
+  font-size: 4rem;
+}
