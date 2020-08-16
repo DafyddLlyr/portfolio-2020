@@ -56,12 +56,31 @@ $mtn-6-color: #04011c;
   100% {margin-top: 40vh; opacity: 1;}
 }
 
-.hero-text {
+.intro-text {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 40vh;
   margin-left: 10vw;
   position: absolute;
   font-size: 5rem;
   animation-name: intro;
   animation-duration: 3s;
+}
+
+@keyframes description {
+  0% {margin-top: 73vh; opacity: 0;}
+  60% {opacity: 0.5;}
+  100% {margin-top: 60vh; opacity: 1;}
+}
+
+.description-text {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 73vh; // Inital position
+  margin-left: 65vw;
+  position: absolute;
+  font-size: 3rem;
+  animation-name: description;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
