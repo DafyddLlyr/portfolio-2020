@@ -1,0 +1,7 @@
+<div class="portfolio-item" (mouseover)="isTextVisible=true" (mouseleave)="isTextVisible=false">
+  <img src="../../../assets/portfolio/{{item.src}}" class="img-fluid" [ngClass]="{'opacity-2': isTextVisible}">
+  <div *ngIf="isTextVisible" class="portfolio-item-text d-flex flex-column align-items-center justify-content-center">
+    <h3 class="text-center mb-5">{{ item.title }}</h3>
+    <button class="btn btn-outline-primary">More Info</button>
+  </div>
+</div>

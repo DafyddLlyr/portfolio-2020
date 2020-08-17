@@ -1,0 +1,19 @@
+.portfolio-item {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.opacity-2 {
+  opacity: 0.2;
+}
+
+.portfolio-item-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}

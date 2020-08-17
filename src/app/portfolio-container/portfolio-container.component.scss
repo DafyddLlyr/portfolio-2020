@@ -1,5 +1,12 @@
 .portfolio {
   width: 75vw;
   height: 100vh;
-  background-color: pink;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 20vw);
+  grid-template-rows: repeat(3, 25vh);
+  justify-content: center;
 }
