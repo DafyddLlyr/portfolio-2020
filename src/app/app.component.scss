@@ -367,6 +367,10 @@ textarea {
 
 // End of CSS reset
 
+::ng-deep body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .app-container {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -377,7 +381,6 @@ textarea {
   // background-position: center;
   // background-color: #04011c;
   color: white;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .app-container > section {
