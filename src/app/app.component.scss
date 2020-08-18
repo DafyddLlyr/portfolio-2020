@@ -372,11 +372,12 @@ textarea {
 }
 
 .app-container {
+  background-color: #04011c;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
   width: 100vw;
-  background-image: url(../assets/contours/SpoonGraphics-Topographic-Map-4.png);
+  background-image: url(../assets/contours/test3.png);
   background-size: repeat;
   color: white;
 }
@@ -389,11 +390,17 @@ textarea {
 ::ng-deep .section-header {
   transform: rotate(-3deg);
   display: inline-block;
-  background-color: blue;
+  background-color: #007BFF;
   font-weight: bold;
-  padding: 3px 5px;
+  padding: 1vh 4vh;
 }
 
 ::ng-deep h2 {
   font-size: 4rem;
+}
+
+::ng-deep .light-block {
+  background-color: whitesmoke;
+  color: black;
+  margin-top: -2vh;
 }

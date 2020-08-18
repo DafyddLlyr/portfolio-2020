@@ -1,9 +1,8 @@
 <div class="portfolio p-3">
-  <h2 class="section-header mb-2">Portfolio</h2>
-  <p class="text-center">Here are a few of the things I've been working on recently. Watch this space for updates and check out my GitHub.</p>
+  <h2 class="section-header mb-4">Portfolio</h2>
   <div class="portfolio-grid">
     <div *ngFor="let item of portfolio">
-        <app-portfolio-item [item]="item"></app-portfolio-item>
+      <app-portfolio-item [item]="item"></app-portfolio-item>
     </div>
   </div>
 </div>
