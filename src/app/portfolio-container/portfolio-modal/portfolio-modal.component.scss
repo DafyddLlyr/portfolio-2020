@@ -1,27 +1,29 @@
 .skill-tag {
-  background-color: lightgray;
+  background-color: #007BFF;
+  color: white;
   font-size: small;
   border-radius: 32px;
   padding: 5px 17px;
 }
 
 .dismiss-button {
+  color: white;
   position: absolute;
   top: 1vh;
   right: 1vw;
-  font-size: 1.5rem;
+  font-size: 1rem;
   cursor: pointer;
   text-shadow:
-    -1px -1px 1px lightgray,
-     1px -1px 1px lightgray,
-    -1px 1px 1px lightgray,
-     1px 1px 1px lightgray;
+    -1px -1px 1px grey,
+     1px -1px 1px grey,
+    -1px 1px 1px grey,
+     1px 1px 1px grey;
 
     &:hover {
       text-shadow:
-        -1px -1px 0px white,
-        1px -1px 0px white,
-        -1px 1px 0px white,
-        1px 1px 0px white;
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black,
+        1px 1px 0px black;
     }
 }

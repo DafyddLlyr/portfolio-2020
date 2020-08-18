@@ -18,7 +18,7 @@ export class PortfolioItemComponent implements OnInit {
   }
 
   openPortfolioModal(item: PortfolioItem): void {
-    const modalRef = this.modalService.open(PortfolioModalComponent, { size: 'lg' });
+    const modalRef = this.modalService.open(PortfolioModalComponent);
     modalRef.componentInstance.item = item;
   }
 
