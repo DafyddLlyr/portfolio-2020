@@ -1,0 +1,28 @@
+<div class="small">
+  <i class="fa fa-times dismiss-button" (click)="closeModal()"></i>
+  <img src="../../../assets/portfolio/{{item.src}}" class="img-fluid">
+  <div class="p-3">
+    <div class="d-flex align-items-center">
+      <h1 class="mr-3 mb-0">{{ item.title }}</h1>
+      <a *ngIf="item.demoUrl" class="btn btn-outline-primary mr-3 text-nowrap" [href]="item.demoUrl" target="_blank">
+        <i class="fas fa-external-link-alt"></i>
+        Live Demo
+      </a>
+      <a class="btn btn-outline-primary text-nowrap" [href]="item.githubRepo" target="_blank">
+        <i class="fab fa-github"></i>
+        Github
+      </a>
+    </div>
+    <hr/>
+    <p>{{ item.description }}</p>
+    <ng-container *ngIf="item.features">
+      <p>Features include - </p>
+      <ul>
+        <li *ngFor="let feature of item.features" class="mb-2">{{ feature }}</li>
+      </ul>
+    </ng-container>
+    <div class="d-flex flex-wrap">
+      <span *ngFor="let tag of item.tags" class="skill-tag mr-2 mb-2">{{ tag }}</span>
+    </div>
+  </div>
+</div>

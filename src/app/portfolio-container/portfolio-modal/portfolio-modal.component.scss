@@ -1,0 +1,27 @@
+.skill-tag {
+  background-color: lightgray;
+  font-size: small;
+  border-radius: 32px;
+  padding: 5px 17px;
+}
+
+.dismiss-button {
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-shadow:
+    -1px -1px 1px lightgray,
+     1px -1px 1px lightgray,
+    -1px 1px 1px lightgray,
+     1px 1px 1px lightgray;
+
+    &:hover {
+      text-shadow:
+        -1px -1px 0px white,
+        1px -1px 0px white,
+        -1px 1px 0px white,
+        1px 1px 0px white;
+    }
+}
