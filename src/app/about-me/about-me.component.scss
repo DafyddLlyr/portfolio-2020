@@ -3,16 +3,12 @@
   width: 70vw;
 }
 
-.profile-pic-container {
-  background-color: green;
-}
-
 .profile-pic {
   min-width: 10vw;
   min-height: 10vw;
   max-height: 20vh;
-  border-radius: 50%;
-  border: 3px solid white;
+  // border-radius: 50%;
+  // border: 2px solid white;
   display: inline-block;
   background-image: url(../../assets/profile.jpg);
   background-size: cover;
@@ -27,7 +23,8 @@
     margin: 0 1vw;
 
     &:hover {
-      color: #007BFF;
+      // color: #007BFF;
+      color: #3178c6;
     }
 
   }
@@ -48,7 +45,7 @@
 
 .highlight {
   background-color: whitesmoke;
-  color: darkslategrey;
+  color: black;
   font-weight: bold;
   padding: 3px 5px;
 }

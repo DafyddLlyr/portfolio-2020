@@ -389,7 +389,8 @@ textarea {
 ::ng-deep .section-header {
   transform: rotate(-3deg);
   display: inline-block;
-  background-color: #007BFF;
+  // background-color: #007BFF;
+  background-color: #3178c6;
   font-weight: bold;
   padding: 1vh 4vh;
   box-shadow: 4px 4px #cfd3da;
@@ -414,7 +415,8 @@ textarea {
     color: white;
 
     &:hover {
-      color: #007BFF;
+      // color: #007BFF;
+      color: #3178c6;
     }
   }
 }
