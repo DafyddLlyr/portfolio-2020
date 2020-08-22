@@ -19,6 +19,21 @@
   background-position: center;
 }
 
+.about-me-icons {
+
+  a {
+    color: black;
+    font-size: 3rem;
+    margin: 0 1vw;
+
+    &:hover {
+      color: #007BFF;
+    }
+
+  }
+
+}
+
 .mt--8vh {
   margin-top: -8vh;
 }
