@@ -8,14 +8,27 @@
 }
 
 .profile-pic {
-  min-width: 20vw;
-  min-height: 20vw;
+  min-width: 10vw;
+  min-height: 10vw;
+  max-height: 20vh;
   border-radius: 50%;
   border: 3px solid white;
   display: inline-block;
   background-image: url(../../assets/profile.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.mt--8vh {
+  margin-top: -8vh;
+}
+
+.light-block {
+
+  p {
+    text-align: center;
+  }
+
 }
 
 .highlight {
@@ -37,22 +50,3 @@
   from {opacity: 0; transform: translateX(20%);}
   to {opacity: 1;}
 }
-
-// .skill {
-//   opacity: 0;
-//   animation-name: tech-stack-animation;
-//   animation-duration: 3s;
-//   animation-fill-mode: forwards;
-// }
-
-// .tech-stack-skills > div:nth-child(1) {animation-delay: 5s;}
-// .tech-stack-skills > div:nth-child(2) {animation-delay: 5.5s;}
-// .tech-stack-skills > div:nth-child(3) {animation-delay: 6s;}
-// .tech-stack-skills > div:nth-child(4) {animation-delay: 6.5s;}
-// .tech-stack-skills > div:nth-child(5) {animation-delay: 7s;}
-// .tech-stack-skills > div:nth-child(6) {animation-delay: 7.5s;}
-// .tech-stack-skills > div:nth-child(7) {animation-delay: 8s;}
-// .tech-stack-skills > div:nth-child(8) {animation-delay: 8.5s;}
-// .tech-stack-skills > div:nth-child(9) {animation-delay: 9s;}
-// .tech-stack-skills > div:nth-child(10) {animation-delay: 9.5s;}
-// .tech-stack-skills > div:nth-child(11) {animation-delay: 10s;}

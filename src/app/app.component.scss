@@ -392,6 +392,7 @@ textarea {
   background-color: #007BFF;
   font-weight: bold;
   padding: 1vh 4vh;
+  box-shadow: 4px 4px #cfd3da;
 }
 
 ::ng-deep h2 {
@@ -401,7 +402,6 @@ textarea {
 ::ng-deep .light-block {
   background-color: whitesmoke;
   color: black;
-  margin-top: -2vh;
 }
 
 .footer-upper {
